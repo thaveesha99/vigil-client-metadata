@@ -1,0 +1,13 @@
+{
+  "client_id": "https://thaveesha99.github.io/vigil-client-metadata/client-metadata.json",
+  "client_name": "Vigil SOC",
+  "client_uri": "https://github.com/Vigil-SOC/vigil",
+  "redirect_uris": [
+    "http://localhost:3334/oauth/callback",
+    "http://localhost:3335/oauth/callback",
+    "http://localhost:3336/oauth/callback"
+  ],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none"
+}
